@@ -1337,7 +1337,8 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 .welcome {
-  background-color: #21b5e3; }
+  background-color: #21b5e3;
+  padding: 2em; }
 
 .home-image-container {
   margin-top: 0; }
