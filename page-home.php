@@ -21,15 +21,12 @@
 
             <div class="main"  role="main">
 
+                <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'home', 'slug' ); } ?>
+
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                     <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                        <header class="article-header">
-
-                            <h1 class="page-title"><?php the_title(); ?></h1>
-
-                        </header>
 
                             <div class="entry-content" itemprop="articleBody">
                                 <?php the_content(); ?>
