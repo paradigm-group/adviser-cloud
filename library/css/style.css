@@ -1339,6 +1339,9 @@ POSTS & CONTENT STYLES
 .welcome {
   background-color: #21b5e3; }
 
+.home-image-container {
+  margin-top: 0; }
+
 /* end .hentry */
 .single-title,
 .page-title,
