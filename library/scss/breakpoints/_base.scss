@@ -255,16 +255,17 @@ POSTS & CONTENT STYLES
 }
 
 #content {}
-		.hentry {
 
-			header {}
+    .hentry {
 
-			footer {
+        header {}
 
-				p {}
-			}
+        footer {
 
-		} /* end .hentry */
+            p {}
+        }
+
+    } /* end .hentry */
 
 		.single-title,
 		.page-title,
