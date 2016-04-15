@@ -36,6 +36,12 @@ Stylesheet: Layout Stylesheet
       }
   .nav {}
 
+    .home-image-container {
+        @include grid (4)
+        @include break(tablet, 12);
+        @include break(mobile, 12);
+    }
+
   #content {}
 
     #inner-content {}
