@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Adviser Cloud
+Author: Jack Machin
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -16,12 +16,12 @@ GENERAL STYLES
 *********************/
 
 body {
-	font-family: $lato;
+	font-family: $open-sans;
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
 	background-color: $body-bg;
-  -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
 /********************
@@ -66,15 +66,6 @@ style a page via class
 	.paged-1 {}                     /* individual paged (i.e. body.paged-3) */
 
 /*********************
-LAYOUT & GRID STYLES
-*********************/
-
-.wrap {
-	width: 96%;
-	margin: 0 auto;
-}
-
-/*********************
 LINK STYLES
 *********************/
 
@@ -108,13 +99,13 @@ a, a:visited {
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
 	text-rendering: optimizelegibility;
-	font-weight: 500;
-	/*
-	if you're going to use webfonts, be sure to check your weights
-	http://css-tricks.com/watch-your-font-weight/
-	*/
+	font-weight: 700;
 
 	/* removing text decoration from all headline links */
 	a {
@@ -122,15 +113,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	}
 }
 
-h1, .h1 {
+h1 {
 	font-size: 2.5em;
 	line-height: 1.333em;
 }
 
-h2, .h2 {
+h2 {
 	font-size: 1.75em;
 	line-height: 1.4em;
-	margin-bottom: 0.375em;
+    background-color: $blue;
+    color: $white;
 }
 
 h3, .h3 {
@@ -153,16 +145,8 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {
-	background-color: $header-bg;
-}
+.header {}
 
-	#logo {
-		margin: 0;
-
-		a {
-		}
-	}
 
 /*********************
 NAVIGATION STYLES
