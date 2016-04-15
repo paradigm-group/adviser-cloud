@@ -48,7 +48,6 @@
 
                 <?php get_sidebar ('header');?>
 
-                <div class="top"></div>
             </div>
 
             <nav role="navigation">

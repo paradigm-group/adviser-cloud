@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="wrapper">
-                    <a href="#top">Back to top</a>
+                    <a href="#inner-header">Back to top</a>
                 </div>
 
 			</footer>
