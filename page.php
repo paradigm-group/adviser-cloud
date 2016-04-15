@@ -12,7 +12,7 @@
 
                     <header class="article-header">
 
-                        <h1 class="entry-title single-title" itemprop="headline">
+                        <h1 class="page-title" itemprop="headline">
                             <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
                         </h1>
 
@@ -27,9 +27,6 @@
 
                     <footer class="article-footer">
 
-                        <?php printf( __( 'Filed under: %1$s', 'guybrush' ), get_the_category_list(', ') ); ?>
-
-                        <?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'guybrush' ) . '</span> ', ', ', '</p>' ); ?>
 
                     </footer> <?php // end article footer ?>
 
