@@ -726,9 +726,41 @@ Stylesheet: Layout Stylesheet
       width: 100%;
       margin: 1%; } }
 
+.social {
+  float: left;
+  width: 23.5%;
+  margin-right: 2%; }
+  .social:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 767px) {
+    .social {
+      width: 100%;
+      margin: 1%;
+      margin-left: 0; } }
+  @media only screen and (max-width: 480px) {
+    .social {
+      width: 100%;
+      margin: 1%; } }
+
+.contact {
+  float: left;
+  width: 49%;
+  margin-right: 2%; }
+  .contact:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 767px) {
+    .contact {
+      width: 100%;
+      margin: 1%;
+      margin-left: 0; } }
+  @media only screen and (max-width: 480px) {
+    .contact {
+      width: 100%;
+      margin: 1%; } }
+
 .sidebar {
   float: left;
-  width: 32%;
+  width: 23.5%;
   margin-right: 2%; }
   .sidebar:last-child {
     margin-right: 0; }
