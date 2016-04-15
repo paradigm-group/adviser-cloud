@@ -87,6 +87,7 @@ body {
 // Owl exclusions
 #wpadminbar,        // fix for admin bar
 li  + li            // fix for li
+span + span
 {
     margin-top: 0;
 }
