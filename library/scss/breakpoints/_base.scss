@@ -180,6 +180,7 @@ nav {}
             background-color: $blue;
             border-radius: .2em;
             margin-right:.2em;
+            border: 2px solid $blue;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -214,6 +215,7 @@ nav {}
 				a {
                     background-color: $light-gray;
                     color: $blue;
+                        border: 2px solid $blue;
 
 					&:hover,
 					&:focus {}
