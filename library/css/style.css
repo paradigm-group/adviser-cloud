@@ -1392,6 +1392,9 @@ POSTS & CONTENT STYLES
   border-radius: .2em;
   padding: .2em; }
 
+index-title {
+  font-size: 1.25em; }
+
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */

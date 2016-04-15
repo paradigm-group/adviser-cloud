@@ -289,8 +289,12 @@ POSTS & CONTENT STYLES
 
 		.entry-title {}
 
-		.archive-title {}
+		.archive-title {
 
+}
+index-title {
+    font-size: 1.25em;
+}
 		/* want to style individual post classes? Booya! */
 		.post-id {}         /* post by id (i.e. post-3) */
 		.post {}            /* general post style */
