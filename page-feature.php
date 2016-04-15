@@ -40,7 +40,7 @@
 
                             <div class="features">
 
-                            <?php while( have_rows('repeater_field_name') ): the_row();
+                            <?php while( have_rows('feature') ): the_row();
 
                                 // vars
                                 $title = get_sub_field('feature-title');
