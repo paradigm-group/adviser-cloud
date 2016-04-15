@@ -1245,16 +1245,17 @@ h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   background-color: #21b5e3;
-  color: #fff; }
+  color: #fff;
+  border-radius: .2em;
+  padding: .2em; }
 
-h3, .h3 {
+h3 {
   font-size: 1.125em; }
 
-h4, .h4 {
-  font-size: 1.1em;
-  font-weight: 700; }
+h4 {
+  font-size: 1.1em; }
 
-h5, .h5 {
+h5 {
   font-size: 0.846em;
   line-height: 2.09em;
   text-transform: uppercase;
@@ -1273,9 +1274,6 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-nav {
-  background-color: #fff; }
-
 .nav {
   margin: 0;
   /* end .menu li */
@@ -1295,6 +1293,8 @@ nav {
       text-decoration: none;
       padding: 0.75em;
       text-align: center;
+      background-color: #21b5e3;
+      border-radius: .2em;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
@@ -1314,58 +1314,6 @@ nav {
           color: #21b5e3; }
 
 /* end .top-nav */
-.mobile-nav {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  margin: 0;
-  background-color: #fff;
-  /* end .menu li */
-  /* highlight current page */
-  /* end current highlighters */ }
-  .mobile-nav li {
-    width: 25%;
-    float: left;
-    /*
-		so you really have to rethink your dropdowns for mobile.
-		you don't want to have it expand too much because the
-		screen is so small. How you manage your menu should
-		depend on the project. Here's some great info on it:
-		http://www.alistapart.com/articles/organizing-mobile/
-		*/ }
-    .mobile-nav li a {
-      display: block;
-      color: #fff;
-      text-decoration: none;
-      padding: 0.75em;
-      text-align: center;
-      /*
-			remember this is for mobile ONLY, so there's no need
-			to even declare hover styles here, you can do it in
-			the style.scss file where it's relevant. We want to
-			keep this file as small as possible!
-			*/ }
-    .mobile-nav li ul.sub-menu,
-    .mobile-nav li ul.children {
-      display: none;
-      margin: 0 auto; }
-      .mobile-nav li ul.sub-menu li,
-      .mobile-nav li ul.children li {
-        width: 100%; }
-        .mobile-nav li ul.sub-menu li a,
-        .mobile-nav li ul.children li a {
-          background-color: #f8f9fa;
-          color: #21b5e3; }
-  .mobile-nav .menu-item:nth-child(4n-2) ul.sub-menu {
-    margin: 0 -100%; }
-  .mobile-nav .menu-item:nth-child(4n-1) ul.sub-menu {
-    margin: 0 -200%; }
-  .mobile-nav .menu-item:nth-child(4n) ul.sub-menu {
-    margin: 0 -300%; }
-  .mobile-nav .mobile-nav li:nth-child(4n+1) {
-    clear: both; }
-
-/* end .mobile-nav */
 /*********************
 POSTS & CONTENT STYLES
 *********************/
