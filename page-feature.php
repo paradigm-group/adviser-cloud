@@ -53,9 +53,9 @@
 
                                     <h2><?php echo $title;?></h2>
                                     <?php if( $image ): ?>
-                                        <div class="feature-image-container">
-                                            <img src="<?php echo $image;?>" alt="<?php echo $title;?>" class="aligncenter;" width="275">
-                                        </div>
+
+                                            <img src="<?php echo $image;?>" alt="<?php echo $title;?>" class="alignleft" width="275">
+
 
                                     <?php endif; ?>
 
