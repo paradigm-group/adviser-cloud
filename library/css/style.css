@@ -1320,6 +1320,9 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+.welcome {
+  background-color: #21b5e3; }
+
 /* end .hentry */
 .single-title,
 .page-title,

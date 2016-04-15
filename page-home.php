@@ -15,43 +15,46 @@
 
 <?php get_header(); ?>
 
+    <div class="wrapper">
+        <div class="container">
+            <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'home', 'slug' ); } ?>
+        </div>
+    </div>
+
+    <div class="welcome">
+        <div class="wrapper">
+            <div class="container">
+                <div class="home-image-container"><img src="<?php the_field('first-home-image');?>" alt=""></div>
+                <div class="home-image-container"><img src="<?php the_field('second-home-image');?>" alt="image goes here"></div>
+                <div class="home-image-container"><img src="<?php the_field('third-home-image');?>" alt="image goes here"></div>
+            </div>
+        </div>
+    </div>
+
     <div id="content" class="wrapper">
 
         <div id="inner-content" class="container">
 
             <div class="main"  role="main">
 
-                <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'home', 'slug' ); } ?>
 
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                     <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
+                        <div class="entry-content" itemprop="articleBody">
+                            <?php the_content(); ?>
+                        </div>
 
-                            <div class="entry-content" itemprop="articleBody">
-                                <?php the_content(); ?>
-                            </div>
+                    </article>
 
+                <?php endwhile; else : ?>
 
-								<footer class="article-footer">
+                    <?php get_template_part ('partials/no-post-found');?>
 
-                  <?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
-
-								</footer>
-
-								<?php comments_template(); ?>
-
-							</article>
-
-							<?php endwhile; else : ?>
-
-                <?php get_template_part ('partials/no-post-found');?>
-
-							<?php endif; ?>
+                <?php endif; ?>
 
 						</div>
-
-						<?php get_sidebar(); ?>
 
 				</div>
 
