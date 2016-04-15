@@ -1497,6 +1497,11 @@ POSTS & CONTENT STYLES
 .sidebar {
   margin-top: 0; }
 
+.boxed {
+  border: 1px solid #21b5e3;
+  padding: 1em;
+  border-radius: .2em; }
+
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
