@@ -1348,7 +1348,7 @@ and more scalable.
       background-color: #21b5e3;
       border-radius: .2em;
       margin-right: .2em;
-      border: 2px solid #fff;
+      border: 2px solid;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
@@ -1927,7 +1927,8 @@ NAVIGATION STYLES
           color: #21b5e3;
           background-color: #fff;
           border-radius: .2em;
-          border: 2px solid; }
+          border: 2px solid;
+          padding: .2em; }
       .nav li ul.sub-menu,
       .nav li ul.children {
         margin-top: 0;
