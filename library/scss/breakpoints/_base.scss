@@ -73,6 +73,7 @@ LINK STYLES
 a, a:visited {
 	color: $link-color;
     text-decoration: none;
+    font-weight:700;
 
 	/* on hover */
 	&:hover, &:focus {

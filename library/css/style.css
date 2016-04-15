@@ -1254,6 +1254,7 @@ LINK STYLES
 a, a:visited {
   color: #21b5e3;
   text-decoration: none;
+  font-weight: 700;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
