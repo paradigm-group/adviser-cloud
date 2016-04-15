@@ -973,8 +973,12 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $footer-bg;
+	background-color: $black;
 	color: $white;
+}
+
+.footer-widgets {
+    background-color: $blue;
 }
 
 	/*

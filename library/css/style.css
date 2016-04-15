@@ -1721,8 +1721,11 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #21b5e3;
+  background-color: #323944;
   color: #fff; }
+
+.footer-widgets {
+  background-color: #21b5e3; }
 
 /*
 	if you checked out the link above:

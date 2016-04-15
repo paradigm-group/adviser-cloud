@@ -1,16 +1,19 @@
 			<footer class="footer" role="contentinfo">
 
-				<div id="inner-footer" class="wrapper">
+                <div class="footer-widgets">
 
-                    <div class="container">
+                    <div id="inner-footer" class="wrapper">
 
-                        <?php get_siderbar('footer-1');?>
-                        <?php get_siderbar('footer-2');?>
-                        <?php get_siderbar('footer-3');?>
+                        <div class="container">
 
-                    </div>
+                            <?php get_sidebar('footer-1');?>
+                            <?php get_sidebar('footer-2');?>
+                            <?php get_sidebar('footer-3');?>
 
-				</div>
+                        </div>
+
+				    </div>
+                </div>
 
 			</footer>
 
