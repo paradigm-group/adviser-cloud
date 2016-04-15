@@ -984,6 +984,10 @@ FOOTER STYLES
 .footer-widgets {
     background-color: $blue;
 
+    .sidebar-footer {
+        margin-top: 0;
+    }
+
     .footer-widget-title {
         font-weight: 700;
         text-transform: uppercase;

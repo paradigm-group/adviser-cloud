@@ -1728,6 +1728,8 @@ FOOTER STYLES
 
 .footer-widgets {
   background-color: #21b5e3; }
+  .footer-widgets .sidebar-footer {
+    margin-top: 0; }
   .footer-widgets .footer-widget-title {
     font-weight: 700;
     text-transform: uppercase;
