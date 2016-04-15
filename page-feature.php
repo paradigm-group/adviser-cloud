@@ -36,7 +36,41 @@
                             the_content();
                         ?>
 
+                        <?php if( have_rows('feature') ): ?>
 
+                            <div class="features">
+
+                            <?php while( have_rows('repeater_field_name') ): the_row();
+
+                                // vars
+                                $title = get_sub_field('feature-title');
+                                $image = get_sub_field('feature-image');
+                                $content = get_sub_field('feature-description');
+
+                                ?>
+
+                                <div class="feature">
+
+                                    <h2><?php echo $title;?></h2>
+                                    <?php if( $image ): ?>
+                                        <div class="feature-image-container">
+                                            <img src="<?php echo $image;?>" alt="<?php echo $title;?>" class="aligncenter;" width="275">
+                                        </div>
+
+                                    <?php endif; ?>
+
+                                    <div class="feature-description">
+
+                                        <?php echo $content; ?>
+                                    </div>
+
+                                </div>
+
+                            <?php endwhile; ?>
+
+                            </div>
+
+                        <?php endif; ?>
                     </div> <?php // end article section ?>
 
                     <footer class="article-footer">
