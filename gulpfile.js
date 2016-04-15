@@ -3,20 +3,12 @@
 var gulp = require('gulp');
 
 // Include Our Plugins
-var jshint = require('gulp-jshint');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var cleanCSS = require('gulp-clean-css');
 
-// Lint Task
-gulp.task('lint', function () {
-    "use strict";
-    return gulp.src('library/js/*.js')
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'));
-});
 
 // Compile Our Sass
 gulp.task('sass', function () {
@@ -41,11 +33,11 @@ gulp.task('scripts', function () {
 
 gulp.task('watch', function () {
     "use strict";
-    gulp.watch('./library/js/*.js', ['lint', 'scripts']);
-    gulp.watch('./library/js/**/*.js', ['lint', 'scripts']);
+    gulp.watch('./library/js/*.js', ['scripts']);
+    gulp.watch('./library/js/**/*.js', [ 'scripts']);
     gulp.watch('./library/scss/*.scss', ['sass']);
     gulp.watch('./library/scss/**/*.scss', ['sass']);
 });
 
 // Default Task
-gulp.task('default', ['lint', 'sass', 'scripts', 'watch']);
+gulp.task('default', ['sass', 'scripts', 'watch']);
