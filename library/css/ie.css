@@ -223,10 +223,11 @@ NAVIGATION STYLES
 			*/ }
       .nav li a:hover, .nav li a:focus {
         color: #21b5e3;
-        background-color: #fff;
-        border-radius: .2em;
+        margin-right: 5px;
+        padding: 6px;
         border: 2px solid;
-        padding: .2em; }
+        border-radius: 5px;
+        background-color: #fff; }
     .nav li ul.sub-menu,
     .nav li ul.children {
       margin-top: 0;

@@ -1340,15 +1340,12 @@ and more scalable.
 		http://www.alistapart.com/articles/organizing-mobile/
 		*/ }
     .nav li a {
-      display: block;
       color: #fff;
-      text-decoration: none;
-      padding: 0.2em;
-      text-align: center;
-      background-color: #21b5e3;
-      border-radius: .2em;
-      margin-right: .2em;
+      margin-right: 5px;
+      padding: 6px;
       border: 2px solid;
+      border-radius: 5px;
+      background-color: #21b5e3;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
@@ -1925,10 +1922,11 @@ NAVIGATION STYLES
 			*/ }
         .nav li a:hover, .nav li a:focus {
           color: #21b5e3;
-          background-color: #fff;
-          border-radius: .2em;
+          margin-right: 5px;
+          padding: 6px;
           border: 2px solid;
-          padding: .2em; }
+          border-radius: 5px;
+          background-color: #fff; }
       .nav li ul.sub-menu,
       .nav li ul.children {
         margin-top: 0;
