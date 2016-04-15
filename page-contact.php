@@ -18,7 +18,18 @@
 
         <div id="inner-content" class="container">
 
-            <div class="main" role="main">
+            <div class="social">
+            <a href="http://uk.linkedin.com/in/advisercloud">
+<img class="aligncenter" src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" alt="View Adviser Cloud's profile on LinkedIn" width="160" height="33" border="0" />
+</a>
+
+<a class="twitter-timeline" href="https://twitter.com/AdviserCloud" data-widget-id="537941186271789056">Tweets by @AdviserCloud</a>
+<script>// <![CDATA[
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+// ]]></script>
+            </div>
+
+            <div class="contact" role="main">
 
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
