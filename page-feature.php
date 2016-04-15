@@ -49,13 +49,12 @@
 
                                 ?>
 
-                                <div class="feature">
+                                <div class="feature full">
 
                                     <h2><?php echo $title;?></h2>
                                     <?php if( $image ): ?>
 
-                                            <img src="<?php echo $image;?>" alt="<?php echo $title;?>" class="alignleft" width="275">
-
+                                        <img src="<?php echo $image;?>" alt="<?php echo $title;?>" class="alignleft" width="275">
 
                                     <?php endif; ?>
 
