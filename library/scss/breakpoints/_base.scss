@@ -244,25 +244,14 @@ nav {}
 POSTS & CONTENT STYLES
 *********************/
 
-#content {
-}
+#content {}
 		.hentry {
-			background-color: $article-bg;
-			border-radius: 3px;
-			border: 1px solid $border-color;
 
-			header {
-				border-bottom: 1px solid $light-gray;
-				padding: 1.5em;
-			}
+			header {}
 
 			footer {
-				padding: 1.5em;
-				border-top: 1px solid $light-gray;
 
-				p {
-					margin: 0;
-				}
+				p {}
 			}
 
 		} /* end .hentry */
@@ -275,7 +264,13 @@ POSTS & CONTENT STYLES
 
 		.single-title {}
 
-		.page-title {}
+		.page-title {
+            text-align:center;
+            color: $white;
+            background-color: $blue;
+            border-radius: .2em;
+            padding: .2em;
+        }
 
 		.entry-title {}
 
