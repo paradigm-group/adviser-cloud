@@ -15,6 +15,10 @@
 				    </div>
                 </div>
 
+                <div class="wrapper">
+                    <a href="#top">Back to top</a>
+                </div>
+
 			</footer>
 
 		<?php // all js scripts are loaded in library/bones.php ?>
