@@ -20,33 +20,24 @@ GENERAL STYLES
 body {}
 
 /*********************
-LAYOUT & GRID STYLES
-*********************/
-
-.wrap {
-}
-
-/*********************
 HEADER STYLES
 *********************/
 
 .header {}
 
-	#logo {}
-
 /*********************
 NAVIGATION STYLES
 *********************/
 
-
-
 .nav {
 	border: 0;
-	ul {
+
+    ul {
 		background:$black;
 		margin-top:0;
 	}
-	li {
+
+    li {
 		float: left;
 		position: relative;
 
@@ -58,8 +49,9 @@ NAVIGATION STYLES
 			has the possibility of being a mobile device.
 			*/
 			&:hover, &:focus {
-				color: $white;
-				text-decoration: underline;
+				color: $blue;
+				background-color: $white;
+                border: 2px solid $blue;
 			}
 		}
 

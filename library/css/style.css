@@ -1811,9 +1811,6 @@ come into play. Have fun!
 GENERAL STYLES
 *********************/
   /*********************
-LAYOUT & GRID STYLES
-*********************/
-  /*********************
 HEADER STYLES
 *********************/
   /*********************
@@ -1841,8 +1838,9 @@ NAVIGATION STYLES
 			has the possibility of being a mobile device.
 			*/ }
         .nav li a:hover, .nav li a:focus {
-          color: #fff;
-          text-decoration: underline; }
+          color: #21b5e3;
+          background-color: #fff;
+          border: 2px solid #21b5e3; }
       .nav li ul.sub-menu,
       .nav li ul.children {
         margin-top: 0;
