@@ -840,11 +840,11 @@ You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
 .blue-btn, .comment-reply-link, #submit {
-  background-color: #2980b9; }
+  background-color: #21b5e3; }
   .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
-    background-color: #2574a8; }
+    background-color: #1ba9d5; }
   .blue-btn:active, .comment-reply-link:active, #submit:active {
-    background-color: #2472a4; }
+    background-color: #1aa5d0; }
 
 /******************************************************************
 Site Name:
@@ -1210,13 +1210,13 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #2980b9;
+  color: #21b5e3;
   text-decoration: none;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #216693;
+    color: #1897be;
     text-decoration: underline; }
   a:link, a:visited:link {
     /*
@@ -1319,7 +1319,7 @@ nav {
         .nav li ul.sub-menu li a,
         .nav li ul.children li a {
           background-color: #f8f9fa;
-          color: #2980b9; }
+          color: #21b5e3; }
 
 /* end .top-nav */
 .mobile-nav {
@@ -1363,7 +1363,7 @@ nav {
         .mobile-nav li ul.sub-menu li a,
         .mobile-nav li ul.children li a {
           background-color: #f8f9fa;
-          color: #2980b9; }
+          color: #21b5e3; }
   .mobile-nav .menu-item:nth-child(4n-2) ul.sub-menu {
     margin: 0 -100%; }
   .mobile-nav .menu-item:nth-child(4n-1) ul.sub-menu {
@@ -1452,7 +1452,7 @@ POSTS & CONTENT STYLES
       border-right: 0; }
   .entry-content blockquote {
     padding: 0 0 0 0.75em;
-    border-left: 3px solid #2980b9;
+    border-left: 3px solid #21b5e3;
     font-style: italic;
     color: #9fa6b4; }
   .entry-content dd {
@@ -1614,9 +1614,9 @@ PAGE NAVI STYLES
     padding: 0.75em;
     min-width: 1em;
     display: block;
-    color: #2980b9; }
+    color: #21b5e3; }
     .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
-      background-color: #2980b9;
+      background-color: #21b5e3;
       color: #fff; }
   .pagination .current {
     cursor: default;
@@ -1744,7 +1744,7 @@ COMMENT STYLES
       border-right: 0; }
   .comment_content blockquote {
     padding: 0 0 0 0.75em;
-    border-left: 3px solid #2980b9;
+    border-left: 3px solid #21b5e3;
     font-style: italic;
     color: #9fa6b4; }
   .comment_content dd {
