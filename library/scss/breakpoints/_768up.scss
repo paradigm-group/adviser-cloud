@@ -51,6 +51,8 @@ NAVIGATION STYLES
 			&:hover, &:focus {
 				color: $blue;
 				background-color: $white;
+                border-radius: .2em;
+                border:2px solid;
 			}
 		}
 

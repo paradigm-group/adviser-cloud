@@ -1917,7 +1917,9 @@ NAVIGATION STYLES
 			*/ }
         .nav li a:hover, .nav li a:focus {
           color: #21b5e3;
-          background-color: #fff; }
+          background-color: #fff;
+          border-radius: .2em;
+          border: 2px solid; }
       .nav li ul.sub-menu,
       .nav li ul.children {
         margin-top: 0;
