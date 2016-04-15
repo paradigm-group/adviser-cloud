@@ -889,7 +889,7 @@ textarea,
   padding: 0 12px;
   margin-bottom: 14px;
   font-size: 1em;
-  color: #5c6b80;
+  color: #494d50;
   border-radius: 3px;
   vertical-align: middle;
   box-shadow: none;
@@ -1138,8 +1138,8 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Adviser Cloud
+Author: Jack Machin
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -1153,11 +1153,11 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
-  background-color: #eaedf2;
+  color: #494d50;
+  background-color: #fff;
   -webkit-font-smoothing: antialiased; }
 
 /********************
@@ -1200,13 +1200,6 @@ style a page via class
 /* paged items like search results or archives */
 /* individual paged (i.e. body.paged-3) */
 /*********************
-LAYOUT & GRID STYLES
-*********************/
-.wrap {
-  width: 96%;
-  margin: 0 auto; }
-
-/*********************
 LINK STYLES
 *********************/
 a, a:visited {
@@ -1229,25 +1222,30 @@ a, a:visited {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-rendering: optimizelegibility;
-  font-weight: 500;
-  /*
-	if you're going to use webfonts, be sure to check your weights
-	http://css-tricks.com/watch-your-font-weight/
-	*/
+  font-weight: 700;
   /* removing text decoration from all headline links */ }
-  h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a {
     text-decoration: none; }
 
-h1, .h1 {
+h1 {
   font-size: 2.5em;
   line-height: 1.333em; }
 
-h2, .h2 {
+h2 {
   font-size: 1.75em;
   line-height: 1.4em;
-  margin-bottom: 0.375em; }
+  background-color: #21b5e3;
+  color: #fff; }
 
 h3, .h3 {
   font-size: 1.125em; }
@@ -1265,12 +1263,6 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-.header {
-  background-color: #fff; }
-
-#logo {
-  margin: 0; }
-
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -1282,7 +1274,7 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 nav {
-  background-color: #323944; }
+  background-color: #fff; }
 
 .nav {
   margin: 0;
@@ -1327,7 +1319,7 @@ nav {
   left: 0;
   bottom: 0;
   margin: 0;
-  background-color: #323944;
+  background-color: #fff;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
@@ -1620,10 +1612,10 @@ PAGE NAVI STYLES
       color: #fff; }
   .pagination .current {
     cursor: default;
-    color: #5c6b80; }
+    color: #494d50; }
     .pagination .current:hover, .pagination .current:focus {
       background-color: #fff;
-      color: #5c6b80; }
+      color: #494d50; }
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
@@ -1797,7 +1789,7 @@ COMMENT FORM STYLES
   font-style: italic;
   margin: 0; }
   .logged-in-as a {
-    color: #5c6b80; }
+    color: #494d50; }
 
 .comment-form-comment {
   margin: 1.5em 0 0.75em; }
@@ -1845,7 +1837,7 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
+  background-color: #21b5e3;
   color: #f8f9fa; }
 
 /*
