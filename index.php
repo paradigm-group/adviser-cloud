@@ -6,10 +6,13 @@
 
             <div class="main" role="main">
 
+                <h1>Our Latest News &amp; Views</h1>
+
+                <p>Adviser Cloud’s subscription based set-up, ensures all our clients benefit from our regular, useful updates.  We are passionate about delivering high quality, insightful IFA software that truly does save you valuable time. Please see below all the latest articles relating to our ongoing developments, news and industry insights.</p>
+
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-
 
                         <header class="article-header">
 
@@ -17,25 +20,19 @@
                                 <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
                             </h1>
 
-                            <p class="byline vcard">Posted <?php echo get_the_time(get_option('date_format'));?> by <?php echo get_the_author_meta( 'display_name' );?></p>
+                            <p class="byline vcard">Posted <?php echo get_the_time(get_option('date_format'));?> </p>
 
                         </header> <?php // end article header ?>
 
                         <div class="entry-content" itemprop="articleBody">
                           <?php
                             // the content (pretty self explanatory huh)
-                            the_content();
+                            the_excerpt();
                           ?>
                         </div> <?php // end article section ?>
 
                         <footer class="article-footer">
-
-                            <?php printf( __( 'Filed under: %1$s', 'guybrush' ), get_the_category_list(', ') ); ?>
-
-                            <?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
                         </footer> <?php // end article footer ?>
-
-                    <?php comments_template(); ?>
 
                 </article> <?php // end article ?>
 
@@ -50,8 +47,6 @@
             <?php endif; ?>
 
             </div>
-
-            <?php get_sidebar(); ?>
 
         </div>
 
