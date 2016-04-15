@@ -728,7 +728,7 @@ Stylesheet: Layout Stylesheet
 
 .social {
   float: left;
-  width: 23.5%;
+  width: 15%;
   margin-right: 2%; }
   .social:last-child {
     margin-right: 0; }
@@ -760,7 +760,7 @@ Stylesheet: Layout Stylesheet
 
 .sidebar {
   float: left;
-  width: 23.5%;
+  width: 32%;
   margin-right: 2%; }
   .sidebar:last-child {
     margin-right: 0; }
