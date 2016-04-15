@@ -24,9 +24,9 @@
     <div class="welcome">
         <div class="wrapper">
             <div class="container">
-                <div class="home-image-container"><img src="<?php the_field('first-home-image');?>" alt="Secure Documents" class="align:center"></div>
-                <div class="home-image-container"><img src="<?php the_field('second-home-image');?>" alt="Task Management" class="align:center;"></div>
-                <div class="home-image-container"><img src="<?php the_field('third-home-image');?>" alt="Good Value" class="aligncenter;"></div>
+                <div class="home-image-container"><img src="<?php the_field('first-home-image');?>" alt="Secure Documents" class="aligncenter"></div>
+                <div class="home-image-container"><img src="<?php the_field('second-home-image');?>" alt="Task Management" class="aligncenter"></div>
+                <div class="home-image-container"><img src="<?php the_field('third-home-image');?>" alt="Good Value" class="aligncenter"></div>
             </div>
         </div>
     </div>
