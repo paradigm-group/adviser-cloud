@@ -4,7 +4,7 @@
 
 				<div id="inner-content" class="container">
 
-					<div class="single" role="main">
+					<div class="eight" role="main">
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

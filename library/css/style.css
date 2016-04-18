@@ -759,19 +759,19 @@ Stylesheet: Layout Stylesheet
       width: 100%;
       margin: 1%; } }
 
-.single {
+.eight {
   float: left;
   width: 66%;
   margin-right: 2%; }
-  .single:last-child {
+  .eight:last-child {
     margin-right: 0; }
   @media only screen and (max-width: 767px) {
-    .single {
+    .eight {
       width: 100%;
       margin: 1%;
       margin-left: 0; } }
   @media only screen and (max-width: 480px) {
-    .single {
+    .eight {
       width: 100%;
       margin: 1%; } }
 
