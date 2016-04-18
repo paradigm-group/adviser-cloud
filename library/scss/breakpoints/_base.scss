@@ -25,6 +25,21 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+/** LOBOTOMISED OWL **/
+
+* + * {
+	margin-top: 1.5em;
+}
+
+// Owl exclusions
+#wpadminbar,        // fix for admin bar
+li  + li,            // fix for li
+span + span
+{
+    margin-top: 0;
+}
+
+
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
