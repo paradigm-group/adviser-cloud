@@ -35,7 +35,6 @@ Stylesheet: Layout Stylesheet
         @include break(mobile, 12);
       }
   .nav {
-        @include grid (12);
 }
 
     .home-image-container {
