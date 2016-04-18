@@ -8,22 +8,34 @@
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<?php
-								/*
-								 * Ah, post formats. Nature's greatest mystery (aside from the sloth).
-								 *
-								 * So this function will bring in the needed template file depending on what the post
-								 * format is. The different post formats are located in the post-formats folder.
-								 *
-								 *
-								 * REMEMBER TO ALWAYS HAVE A DEFAULT ONE NAMED "format.php" FOR POSTS THAT AREN'T
-								 * A SPECIFIC POST FORMAT.
-								 *
-								 * If you want to remove post formats, just delete the post-formats folder and
-								 * replace the function below with the contents of the "format.php" file.
-								*/
-								get_template_part( 'post-formats/format', get_post_format() );
-							?>
+                            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+
+                            <header class="article-header">
+
+                                <h1 class="entry-title single-title" itemprop="headline">
+                                    <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                                </h1>
+
+                                <p class="byline vcard">Posted <?php echo get_the_time(get_option('date_format'));?> </p>
+
+                            </header> <?php // end article header ?>
+
+                            <div class="entry-content" itemprop="articleBody">
+                              <?php
+                                // the content (pretty self explanatory huh)
+                                the_content();
+                              ?>
+                            </div> <?php // end article section ?>
+
+                            <footer class="article-footer">
+
+
+                            </footer> <?php // end article footer ?>
+
+                            <?php comments_template(); ?>
+
+                            </article> <?php // end article ?>
+
 
 						<?php endwhile; ?>
 
