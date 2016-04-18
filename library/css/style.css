@@ -1293,6 +1293,7 @@ and more scalable.
 */
 .nav {
   margin: 0;
+  list-style-type: none;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
