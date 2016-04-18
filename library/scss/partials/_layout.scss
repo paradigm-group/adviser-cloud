@@ -65,6 +65,12 @@ Stylesheet: Layout Stylesheet
             @include break(tablet, 12);
             @include break(mobile, 12);
         }
+
+.single {
+              @include grid(8);
+            @include break(tablet, 12);
+            @include break(mobile, 12);
+}
         .sidebar {
             @include grid(4);
             @include break(tablet, 12);

@@ -4,7 +4,7 @@
 
 				<div id="inner-content" class="container">
 
-					<div class="main" role="main">
+					<div class="single" role="main">
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

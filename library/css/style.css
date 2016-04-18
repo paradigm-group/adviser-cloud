@@ -759,6 +759,22 @@ Stylesheet: Layout Stylesheet
       width: 100%;
       margin: 1%; } }
 
+.single {
+  float: left;
+  width: 66%;
+  margin-right: 2%; }
+  .single:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 767px) {
+    .single {
+      width: 100%;
+      margin: 1%;
+      margin-left: 0; } }
+  @media only screen and (max-width: 480px) {
+    .single {
+      width: 100%;
+      margin: 1%; } }
+
 .sidebar {
   float: left;
   width: 32%;
