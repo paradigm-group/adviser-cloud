@@ -185,11 +185,12 @@ nav {}
 .nav {
     margin:0;
     padding:0;
-
     list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 
 	li {
-        float:left;
 
 		a {
             color:$white;

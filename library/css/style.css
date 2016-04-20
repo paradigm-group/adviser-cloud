@@ -1300,11 +1300,13 @@ and more scalable.
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
   .nav li {
-    float: left;
     /*
 		so you really have to rethink your dropdowns for mobile.
 		you don't want to have it expand too much because the
