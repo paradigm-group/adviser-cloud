@@ -49,7 +49,7 @@
                                 ?>
                                 <div class="integration">
                                     <img src="<?php echo $image;?>" alt="<?php echo $title;?>" class="alignleft" class="integration-image" width="170">
-</div>
+                                </div>
                             <?php endwhile; ?>
 
                             </div>
@@ -58,7 +58,6 @@
                     </div> <?php // end article section ?>
 
                     <footer class="article-footer">
-
 
                     </footer> <?php // end article footer ?>
 

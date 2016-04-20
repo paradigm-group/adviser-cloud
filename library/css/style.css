@@ -732,6 +732,11 @@ Stylesheet: Layout Stylesheet
       width: 100%;
       margin: 1%; } }
 
+.integrations {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -1171,7 +1176,8 @@ body {
 
 #wpadminbar,
 li + li,
-span + span {
+span + span,
+.integration + .integration {
   margin-top: 0; }
 
 /********************

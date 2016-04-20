@@ -34,7 +34,8 @@ body {
 // Owl exclusions
 #wpadminbar,        // fix for admin bar
 li  + li,            // fix for li
-span + span
+span + span,
+.integration + .integration
 {
     margin-top: 0;
 }
