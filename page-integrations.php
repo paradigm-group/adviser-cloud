@@ -40,7 +40,7 @@
 
                             <div class="integrations">
 
-                            <?php while( have_rows('integration') ): the_row();
+                            <?php while( have_rows('integrations') ): the_row();
 
                                 // vars
                                 $title = get_sub_field('integration-title');
@@ -50,7 +50,7 @@
 
                                 <div class="integration">
 
-                                    <img src="<?php echo $image;?>" alt="<?php echo $title;?>" class="alignleft" class="integration-image">
+                                    <img src="<?php echo $image;?>" alt="<?php echo $title;?>" class="alignleft" class="integration-image" width="170">
 
                                 </div>
 
