@@ -1307,11 +1307,6 @@ and more scalable.
   /* highlight current page */
   /* end current highlighters */ }
   .nav li {
-    margin-right: 5px;
-    padding: 6px;
-    border: 2px solid;
-    border-radius: 5px;
-    background-color: #21b5e3;
     /*
 		so you really have to rethink your dropdowns for mobile.
 		you don't want to have it expand too much because the
@@ -1321,6 +1316,11 @@ and more scalable.
 		*/ }
     .nav li a {
       color: #fff;
+      margin-right: 5px;
+      padding: 6px;
+      border: 2px solid;
+      border-radius: 5px;
+      background-color: #21b5e3;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in

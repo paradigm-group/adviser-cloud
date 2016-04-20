@@ -191,14 +191,15 @@ nav {}
     justify-content: flex-start;
 
 	li {
-            margin-right: 5px;
+
+		a {
+            color:$white;
+                        margin-right: 5px;
     padding: 6px;
     border: 2px solid;
     border-radius: 5px;
     background-color: $blue;
 
-		a {
-            color:$white;
 
 
 
