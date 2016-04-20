@@ -737,6 +737,9 @@ Stylesheet: Layout Stylesheet
   flex-flow: row wrap;
   justify-content: space-around; }
 
+.integration {
+  flex: 1 100%; }
+
 /******************************************************************
 Site Name:
 Author:
