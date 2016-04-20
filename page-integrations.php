@@ -48,11 +48,7 @@
 
                                 ?>
 
-                                <div class="integration">
-
                                     <img src="<?php echo $image;?>" alt="<?php echo $title;?>" class="alignleft" class="integration-image" width="170">
-
-                                </div>
 
                             <?php endwhile; ?>
 
