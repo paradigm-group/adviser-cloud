@@ -68,11 +68,11 @@ Stylesheet: Layout Stylesheet
             @include break(mobile, 12);
         }
 
-.eight {
-              @include grid(8);
+        .eight {
+            @include grid(8);
             @include break(tablet, 12);
             @include break(mobile, 12);
-}
+        }
         .sidebar {
             @include grid(4);
             @include break(tablet, 12);
@@ -80,4 +80,3 @@ Stylesheet: Layout Stylesheet
         }
 
   .footer {}
-
