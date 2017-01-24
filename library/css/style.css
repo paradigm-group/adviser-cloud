@@ -1302,7 +1302,7 @@ and more scalable.
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: center;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
@@ -1321,6 +1321,7 @@ and more scalable.
       border: 2px solid;
       border-radius: 5px;
       background-color: #21b5e3;
+      display: flex;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
@@ -1876,6 +1877,7 @@ NAVIGATION STYLES
 *********************/
   .nav {
     border: 0;
+    justify-content: flex-start;
     /* end .menu ul li */
     /* highlight current page */
     /* end current highlighters */ }

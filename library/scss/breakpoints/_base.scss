@@ -188,20 +188,18 @@ nav {}
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
 
 	li {
 
 		a {
             color:$white;
-                        margin-right: 5px;
-    padding: 6px;
-    border: 2px solid;
-    border-radius: 5px;
-    background-color: $blue;
-
-
-
+            margin-right: 5px;
+            padding: 6px;
+            border: 2px solid;
+            border-radius: 5px;
+            background-color: $blue;
+            display: flex;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
